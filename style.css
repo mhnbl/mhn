@@ -50,7 +50,16 @@ body {
     margin-right: 1rem;
 	text-decoration: none;
 }  
+.to-top-button {
+    position: fixed;
+    bottom: -50px;
+    right: 10px;
+    transition: bottom 0.3s ease-in-out;
+}
 
+.to-top-button.visible {
+    bottom: 10px;
+}
 ::-webkit-scrollbar {
 	width: 7px; 
 }
