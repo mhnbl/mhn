@@ -60,6 +60,7 @@ body {
 .to-top-button.visible {
     bottom: 10px;
 }
+
 ::-webkit-scrollbar {
 	width: 7px; 
 }
@@ -73,4 +74,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
 	background: #555;
 }
-
